@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class perimeter{
+public class sideofsquare {
     public static void main(String[] args) {
         int perimeter;
         Scanner sc = new Scanner(System.in);
