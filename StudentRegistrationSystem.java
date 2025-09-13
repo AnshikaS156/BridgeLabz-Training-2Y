@@ -5,8 +5,8 @@ public class StudentRegistrationSystem{
     
     public static void displayStudentNames(String[] names) {
         System.out.println("Registered Students:");
-        for (String name : names) {
-            System.out.println(name);
+        for (int i=0; i<names.length;i++) {
+            System.out.println(names[i]);
         }
     }
 
@@ -84,3 +84,5 @@ public class StudentRegistrationSystem{
         scanner.close();
     }
 }
+
+
